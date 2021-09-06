@@ -30,3 +30,4 @@
 	<script src="{{asset('public/website')}}/js/easing.js"></script>
 	<!-- Active JS -->
 	<script src="{{asset('public/website')}}/js/active.js"></script>
+	<script src="{{asset('public/website')}}/js/custom.js"></script>

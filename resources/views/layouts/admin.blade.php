@@ -26,7 +26,7 @@
         <div class="page-wrapper">
 
           
-                @yield('main_mody')
+                @yield('main_body')
          
             
             @include('partials.admin_footer')

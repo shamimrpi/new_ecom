@@ -39,7 +39,8 @@
 	<!-- Eshop StyleSheet -->
 	<link rel="stylesheet" href="{{asset('public/website/css/reset.css')}}">
 	<link rel="stylesheet" href="{{asset('public/website/css/style.css')}}">
-    <link rel="stylesheet" href="{{asset('public/website/css/css/responsive.css')}}">
+    <link rel="stylesheet" href="{{asset('public/website/css/responsive.css')}}">
+    <link rel="stylesheet" href="{{asset('public/website/css/custom.css')}}">
 
 	
 	

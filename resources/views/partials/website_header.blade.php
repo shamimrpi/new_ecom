@@ -1,5 +1,5 @@
-<!-- Header -->
-<header class="header shop">
+	<!-- Header -->
+	<header class="header shop">
 		<!-- Topbar -->
 		<div class="topbar">
 			<div class="container">
@@ -36,7 +36,7 @@
 					<div class="col-lg-2 col-md-2 col-12">
 						<!-- Logo -->
 						<div class="logo">
-							<a href="index.html"><img src="images/logo.png" alt="logo"></a>
+							<a href="index.html"><img src="{{asset('public/website/images/logo.png')}}" alt="logo"></a>
 						</div>
 						<!--/ End Logo -->
 						<!-- Search Form -->
@@ -117,13 +117,13 @@
 			</div>
 		</div>
 		<!-- Header Inner -->
-		<div class="header-inner">
-			<div class="container">
+		<div class="header-inner" id="side_navbar">
+			<div class="container mycontainer">
 				<div class="cat-nav-head">
 					<div class="row">
 						<div class="col-lg-3">
 							<div class="all-category">
-								<h3 class="cat-heading"><i class="fa fa-bars" aria-hidden="true"></i>CATEGORIES</h3>
+								<h3 class="cat-heading" style="font-size: 15px"><i class="fa fa-bars" aria-hidden="true"></i>CATEGORIES</h3>
 								<ul class="main-category">
 									<li><a href="#">New Arrivals <i class="fa fa-angle-right" aria-hidden="true"></i></a>
 										<ul class="sub-category">
@@ -226,4 +226,3 @@
 		</div>
 		<!--/ End Header Inner -->
 	</header>
-	<!--/ End Header -->
