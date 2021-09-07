@@ -1,5 +1,31 @@
 @extends('layouts.website')
 @section('main_body')
+<!-- Slider Area -->
+<section class="hero-slider">
+		<!-- Single Slider -->
+		<div class="single-slider">
+			<div class="container">
+				<div class="row no-gutters">
+					<div class="col-lg-9 offset-lg-3 col-12">
+						<div class="text-inner">
+							<div class="row">
+								<div class="col-lg-7 col-12">
+									<div class="hero-text">
+										<h1><span>UP TO 50% OFF </span>Shirt For Man</h1>
+										<p>Maboriosam in a nesciung eget magnae <br> dapibus disting tloctio in the find it pereri <br> odiy maboriosm.</p>
+										<div class="button">
+											<a href="#" class="btn">Shop Now!</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--/ End Single Slider -->
+	</section>
 <!-- Start Small Banner  -->
 	<section class="small-banner section">
 		<div class="container-fluid">
@@ -7,7 +33,7 @@
 				<!-- Single Banner  -->
 				<div class="col-lg-4 col-md-6 col-12">
 					<div class="single-banner">
-						<img src="https://via.placeholder.com/600x370" alt="#">
+						<img src="{{ asset('website/images/blue-shoes-29507491.jpg') }}" alt="#">
 						<div class="content">
 							<p>Man's Collectons</p>
 							<h3>Summer travel <br> collection</h3>
@@ -19,7 +45,7 @@
 				<!-- Single Banner  -->
 				<div class="col-lg-4 col-md-6 col-12">
 					<div class="single-banner">
-						<img src="https://via.placeholder.com/600x370" alt="#">
+						<img src="{{ asset('website/images/download (5).jpg') }}" alt="#">
 						<div class="content">
 							<p>Bag Collectons</p>
 							<h3>Awesome Bag <br> 2020</h3>
@@ -31,7 +57,7 @@
 				<!-- Single Banner  -->
 				<div class="col-lg-4 col-12">
 					<div class="single-banner tab-height">
-						<img src="https://via.placeholder.com/600x370" alt="#">
+						<img src="{{ asset('website/images/shoe3.jpg') }}" alt="#">
 						<div class="content">
 							<p>Flash Sale</p>
 							<h3>Mid Season <br> Up to <span>40%</span> Off</h3>
@@ -79,8 +105,8 @@
 												<div class="single-product">
 													<div class="product-img">
 														<a href="product-details.html">
-															<img class="default-img" src="https://via.placeholder.com/550x750" alt="#">
-															<img class="hover-img" src="https://via.placeholder.com/550x750" alt="#">
+															<img class="default-img" src="{{ asset('website/images/fridge3.jpg') }}" alt="#">
+															<img class="hover-img" src="{{ asset('website/images/fridge3.jpg') }}" alt="#">
 														</a>
 														<div class="button-head">
 															<div class="product-action">
@@ -105,8 +131,8 @@
 												<div class="single-product">
 													<div class="product-img">
 														<a href="product-details.html">
-															<img class="default-img" src="https://via.placeholder.com/550x750" alt="#">
-															<img class="hover-img" src="https://via.placeholder.com/550x750" alt="#">
+															<img class="default-img" src="{{ asset('website/images/fridge.jpg') }}" alt="#">
+															<img class="hover-img" src="{{ asset('website/images/fridge2.jpg') }}" alt="#">
 														</a>
 														<div class="button-head">
 															<div class="product-action">
@@ -131,8 +157,8 @@
 												<div class="single-product">
 													<div class="product-img">
 														<a href="product-details.html">
-															<img class="default-img" src="https://via.placeholder.com/550x750" alt="#">
-															<img class="hover-img" src="https://via.placeholder.com/550x750" alt="#">
+															<img class="default-img" src="{{ asset('website/images/fridge4.jpg') }}" alt="#">
+															<img class="hover-img" src="{{ asset('website/images/fridge4.jpg') }}" alt="#">
 														</a>
 														<div class="button-head">
 															<div class="product-action">
@@ -157,8 +183,8 @@
 												<div class="single-product">
 													<div class="product-img">
 														<a href="product-details.html">
-															<img class="default-img" src="https://via.placeholder.com/550x750" alt="#">
-															<img class="hover-img" src="https://via.placeholder.com/550x750" alt="#">
+															<img class="default-img" src="{{ asset('website/images/phone2.jpg') }}" alt="#">
+															<img class="hover-img" src="{{ asset('website/images/phone2.jpg') }}" alt="#">
 															<span class="new">New</span>
 														</a>
 														<div class="button-head">
@@ -184,8 +210,8 @@
 												<div class="single-product">
 													<div class="product-img">
 														<a href="product-details.html">
-															<img class="default-img" src="https://via.placeholder.com/550x750" alt="#">
-															<img class="hover-img" src="https://via.placeholder.com/550x750" alt="#">
+															<img class="default-img" src="{{ asset('website/images/phone3.jpg') }}" alt="#">
+															<img class="hover-img" src="{{ asset('website/images/phone3.jpg') }}" alt="#">
 														</a>
 														<div class="button-head">
 															<div class="product-action">
@@ -210,8 +236,8 @@
 												<div class="single-product">
 													<div class="product-img">
 														<a href="product-details.html">
-															<img class="default-img" src="https://via.placeholder.com/550x750" alt="#">
-															<img class="hover-img" src="https://via.placeholder.com/550x750" alt="#">
+															<img class="default-img" src="{{ asset('website/images/blue-shoes-29507491.jpg') }}" alt="#">
+															<img class="hover-img" src="{{ asset('website/images/blue-shoes-29507491.jpg') }}" alt="#">
 															<span class="price-dec">30% Off</span>
 														</a>
 														<div class="button-head">
@@ -237,8 +263,8 @@
 												<div class="single-product">
 													<div class="product-img">
 														<a href="product-details.html">
-															<img class="default-img" src="https://via.placeholder.com/550x750" alt="#">
-															<img class="hover-img" src="https://via.placeholder.com/550x750" alt="#">
+															<img class="default-img" src="{{ asset('website/images/blue-shoes-29507491.jpg') }}" alt="#">
+															<img class="hover-img" src="{{ asset('website/images/blue-shoes-29507491.jpg') }}" alt="#">
 														</a>
 														<div class="button-head">
 															<div class="product-action">
@@ -263,8 +289,8 @@
 												<div class="single-product">
 													<div class="product-img">
 														<a href="product-details.html">
-															<img class="default-img" src="https://via.placeholder.com/550x750" alt="#">
-															<img class="hover-img" src="https://via.placeholder.com/550x750" alt="#">
+															<img class="default-img" src="{{ asset('website/images/1.jpg') }}" alt="#">
+															<img class="hover-img" src="{{ asset('website/images/1.jpg') }}" alt="#">
 															<span class="out-of-stock">Hot</span>
 														</a>
 														<div class="button-head">
@@ -299,8 +325,8 @@
 												<div class="single-product">
 													<div class="product-img">
 														<a href="product-details.html">
-															<img class="default-img" src="https://via.placeholder.com/550x750" alt="#">
-															<img class="hover-img" src="https://via.placeholder.com/550x750" alt="#">
+															<img class="default-img" src="{{ asset('website/images/2.jpg') }}" alt="#">
+															<img class="hover-img" src="{{ asset('website/images/2.jpg') }}" alt="#">
 														</a>
 														<div class="button-head">
 															<div class="product-action">
@@ -325,8 +351,8 @@
 												<div class="single-product">
 													<div class="product-img">
 														<a href="product-details.html">
-															<img class="default-img" src="https://via.placeholder.com/550x750" alt="#">
-															<img class="hover-img" src="https://via.placeholder.com/550x750" alt="#">
+															<img class="default-img" src="{{ asset('website/images/3.jpg') }}" alt="#">
+															<img class="hover-img" src="{{ asset('website/images/3.jpg') }}" alt="#">
 														</a>
 														<div class="button-head">
 															<div class="product-action">
@@ -351,8 +377,8 @@
 												<div class="single-product">
 													<div class="product-img">
 														<a href="product-details.html">
-															<img class="default-img" src="https://via.placeholder.com/550x750" alt="#">
-															<img class="hover-img" src="https://via.placeholder.com/550x750" alt="#">
+															<img class="default-img" src="{{ asset('website/images4.jpg') }}0" alt="#">
+															<img class="hover-img" src="{{ asset('website/images/4.jpg') }}" alt="#">
 														</a>
 														<div class="button-head">
 															<div class="product-action">
@@ -377,8 +403,8 @@
 												<div class="single-product">
 													<div class="product-img">
 														<a href="product-details.html">
-															<img class="default-img" src="https://via.placeholder.com/550x750" alt="#">
-															<img class="hover-img" src="https://via.placeholder.com/550x750" alt="#">
+															<img class="default-img" src="{{ asset('website/images/5.jpg') }}0" alt="#">
+															<img class="hover-img" src="{{ asset('website/images/5.jpg') }}" alt="#">
 															<span class="new">New</span>
 														</a>
 														<div class="button-head">
@@ -404,8 +430,8 @@
 												<div class="single-product">
 													<div class="product-img">
 														<a href="product-details.html">
-															<img class="default-img" src="https://via.placeholder.com/550x750" alt="#">
-															<img class="hover-img" src="https://via.placeholder.com/550x750" alt="#">
+															<img class="default-img" src="{{ asset('website/images/bd.jpg') }}" alt="#">
+															<img class="hover-img" src="{{ asset('website/images/bd.jpg') }}" alt="#">
 														</a>
 														<div class="button-head">
 															<div class="product-action">
@@ -1449,8 +1475,8 @@
 						<div class="single-product">
 							<div class="product-img">
 								<a href="product-details.html">
-									<img class="default-img" src="https://via.placeholder.com/550x750" alt="#">
-									<img class="hover-img" src="https://via.placeholder.com/550x750" alt="#">
+									<img class="default-img" src="{{ asset('website/images/a.jpg') }}" alt="#">
+									<img class="hover-img" src="{{ asset('website/images/a.jpg') }}" alt="#">
 									<span class="out-of-stock">Hot</span>
 								</a>
 								<div class="button-head">
@@ -1477,8 +1503,8 @@
 						<div class="single-product">
                             <div class="product-img">
                                 <a href="product-details.html">
-                                    <img class="default-img" src="https://via.placeholder.com/550x750" alt="#">
-                                    <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#">
+                                    <img class="default-img" src="{{ asset('website/images/a.jpg') }}" alt="#">
+                                    <img class="hover-img" src="{{ asset('website/images/a.jpg') }}" alt="#">
                                 </a>
 								<div class="button-head">
 									<div class="product-action">
@@ -1530,8 +1556,8 @@
 						<div class="single-product">
                             <div class="product-img">
                                 <a href="product-details.html">
-                                    <img class="default-img" src="https://via.placeholder.com/550x750" alt="#">
-                                    <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#">
+                                    <img class="default-img" src="{{ asset('website/images/a.jpg') }}" alt="#">
+                                    <img class="hover-img" src="{{ asset('website/images/a.jpg') }}" alt="#">
                                 </a>
 								<div class="button-head">
 									<div class="product-action">
@@ -1639,7 +1665,7 @@
 						<div class="row">
 							<div class="col-lg-6 col-md-6 col-12">
 								<div class="list-image overlay">
-									<img src="https://via.placeholder.com/115x140" alt="#">
+									<img src="{{ asset('website/images/a.jpg') }}" alt="#">
 									<a href="#" class="buy"><i class="fa fa-shopping-bag"></i></a>
 								</div>
 							</div>
@@ -1657,7 +1683,7 @@
 						<div class="row">
 							<div class="col-lg-6 col-md-6 col-12">
 								<div class="list-image overlay">
-									<img src="https://via.placeholder.com/115x140" alt="#">
+									<img src="{{ asset('website/images/d.jpg') }}" alt="#">
 									<a href="#" class="buy"><i class="fa fa-shopping-bag"></i></a>
 								</div>
 							</div>
@@ -1675,7 +1701,7 @@
 						<div class="row">
 							<div class="col-lg-6 col-md-6 col-12">
 								<div class="list-image overlay">
-									<img src="https://via.placeholder.com/115x140" alt="#">
+									<img src="{{ asset('website/images/c.jpg') }}" alt="#">
 									<a href="#" class="buy"><i class="fa fa-shopping-bag"></i></a>
 								</div>
 							</div>
@@ -1702,7 +1728,7 @@
 						<div class="row">
 							<div class="col-lg-6 col-md-6 col-12">
 								<div class="list-image overlay">
-									<img src="https://via.placeholder.com/115x140" alt="#">
+									<img src="{{ asset('website/images/b.jpg') }}" alt="#">
 									<a href="#" class="buy"><i class="fa fa-shopping-bag"></i></a>
 								</div>
 							</div>
@@ -1720,7 +1746,7 @@
 						<div class="row">
 							<div class="col-lg-6 col-md-6 col-12">
 								<div class="list-image overlay">
-									<img src="https://via.placeholder.com/115x140" alt="#">
+									<img src="{{ asset('website/images/a.jpg') }}" alt="#">
 									<a href="#" class="buy"><i class="fa fa-shopping-bag"></i></a>
 								</div>
 							</div>
@@ -1738,7 +1764,7 @@
 						<div class="row">
 							<div class="col-lg-6 col-md-6 col-12">
 								<div class="list-image overlay">
-									<img src="https://via.placeholder.com/115x140" alt="#">
+									<img src="{{ asset('website/images/e.jpg') }}" alt="#">
 									<a href="#" class="buy"><i class="fa fa-shopping-bag"></i></a>
 								</div>
 							</div>
@@ -1764,7 +1790,7 @@
 				<div class="row">
 					<div class="col-lg-6 col-12 padding-right">
 						<div class="image">
-							<img src="https://via.placeholder.com/750x590" alt="#">
+							<img src="{{ asset('website/images/d.jpg') }}" alt="#">
 						</div>	
 					</div>	
 					<div class="col-lg-6 col-12 padding-left">
@@ -1800,7 +1826,7 @@
 				<div class="col-lg-4 col-md-6 col-12">
 					<!-- Start Single Blog  -->
 					<div class="shop-single-blog">
-						<img src="https://via.placeholder.com/370x300" alt="#">
+						<img src="{{ asset('website/images/c.jpg') }}" alt="#">
 						<div class="content">
 							<p class="date">22 July , 2020. Monday</p>
 							<a href="#" class="title">Sed adipiscing ornare.</a>
@@ -1812,7 +1838,7 @@
 				<div class="col-lg-4 col-md-6 col-12">
 					<!-- Start Single Blog  -->
 					<div class="shop-single-blog">
-						<img src="https://via.placeholder.com/370x300" alt="#">
+						<img src="{{ asset('website/images/b.jpg') }}" alt="#">
 						<div class="content">
 							<p class="date">22 July, 2020. Monday</p>
 							<a href="#" class="title">Man’s Fashion Winter Sale</a>

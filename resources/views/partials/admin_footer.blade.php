@@ -1,3 +1,3 @@
-<footer class="footer text-center">
-                © 2021 Monster Admin by <a href="https://www.wrappixel.com/">wrappixel.com</a>
+<footer class="footer text-center myfooter">
+                © 2021 Linkup Technology by <a href="#">linkuptechnology.com</a>
 </footer>

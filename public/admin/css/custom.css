@@ -1,8 +1,79 @@
+
+
+page-wrapper{
+    background:#fff !important;
+}
 .page-wrapper{
     min-height: 100vh;
 }
 .footer{
-    position: fixed;
+   
     bottom: 0;
     width: 100%;
+}
+.my-table{
+    width: 100%;
+}
+tr{
+    border-bottom:1px solid #000;
+    text-align: center;
+    padding: 5px;
+    margin: 5px 0;
+}
+tr:hover{
+    background:cornsilk;
+
+}
+.my-table td,td{
+    font-size: 20px !important;
+    padding: 5px;
+    border-bottom:1px solid #000;
+    color:#000;
+}
+.mycard:hover{
+   
+}
+.mycard{
+    
+    transition:all .5s;
+}
+.my-input{
+    width: 100%;
+  padding: 5px 5px;
+  margin: 2px 0;
+  outline: none;
+  box-shadow: 1px 1px 2px pink;
+box-sizing: border-box;
+}
+.right{
+    text-align: right;
+}
+nav .mysidebar{
+    backgroun :#2A3042 !important;
+}
+.myfooter{
+    background-color: #00A4CF;
+    color: white;
+}
+.myfooter a{
+    color:#ffffff;
+}
+.active{
+    background: #2A3042;
+    color:#000;
+}
+.sidebar-link{
+    color:#029EFB!important;
+}
+.my-row{
+    margin-bottom: 15px;
+}
+.submit-btn{
+    width: 150px;
+}
+td:first-child{
+    border-left: 1px solid #000;
+}
+.card-body{
+    border:1px solid #000;
 }

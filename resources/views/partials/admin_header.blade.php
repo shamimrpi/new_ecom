@@ -1,4 +1,4 @@
-<header class="topbar" data-navbarbg="skin6">
+<header class="topbar" data-navbarbg="skin6" style="position: fixed;top:0;width: 100%">
             <nav class="navbar top-navbar navbar-expand-md navbar-dark">
                 <div class="navbar-header" data-logobg="skin6">
                     <!-- ============================================================== -->
@@ -9,14 +9,14 @@
                         <b class="logo-icon">
                             <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
                             <!-- Dark Logo icon -->
-                            <img src="{{asset('public/admin/img/logo.png')}}" alt="homepage" class="dark-logo" />
+                            <img src="{{asset('admin/img/adminlogo.png')}}" alt="homepage" class="dark-logo" />
 
                         </b>
                         <!--End Logo icon -->
                         <!-- Logo text -->
                         <span class="logo-text">
                             <!-- dark Logo text -->
-                            <img src="#" alt="homepage" class="dark-logo" />
+                            <img src="{{asset('admin/profile/images/'.Auth::user()->image)}}" style="height:50px;width:0px;border-radius:50%" alt="homepage" class="dark-logo" />
 
                         </span>
                     </a>
@@ -58,8 +58,15 @@
                         <!-- User profile and search -->
                         <!-- ============================================================== -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle waves-effect waves-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="../assets/images/users/1.jpg" alt="user" class="profile-pic me-2">Markarn Doe
+                            <a class="nav-link dropdown-toggle waves-effect waves-dark " id="logout" href="{{route('admin.logout')}}"  id="navbarDropdown"  data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-power-off"></i>
+                            </a>
+                            <ul class="dropdown-menu show" aria-labelledby="navbarDropdown"></ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle waves-effect waves-dark" href="{{route('profile')}}" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="{{asset('admin/profile/images/'.Auth::user()->image)}}" alt="user" class="profile-pic me-2">{{Auth::user()->first_name}}
                             </a>
                             <ul class="dropdown-menu show" aria-labelledby="navbarDropdown"></ul>
                         </li>
@@ -67,3 +74,4 @@
                 </div>
             </nav>
         </header>
+        <div class='notifications top-right'></div>

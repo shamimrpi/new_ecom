@@ -23,19 +23,21 @@
         <!-- ============================================================== -->
         <!-- Page wrapper  -->
         <!-- ============================================================== -->
-        <div class="page-wrapper">
+        <div class="page-wrapper" style="margin-top: 60px;background: #fff">
 
           
                 @yield('main_mody')
          
             
-            @include('partials.admin_footer')
+            
 
         </div>
+        @include('partials.admin_footer')
        
     </div>
 
     @include('partials.admin_script')
+    @yield('scripts')
   
 </body>
 
