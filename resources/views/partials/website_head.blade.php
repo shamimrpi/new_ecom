@@ -16,6 +16,7 @@
 	
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="{{asset('website/css/bootstrap.css')}}">
+	
 	<!-- Magnific Popup -->
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="{{asset('website/css/magnific-popup.min.css')}}">

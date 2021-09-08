@@ -54,7 +54,11 @@ Version:1.0
 			} else {
 				$('.header').removeClass("sticky");
 			}
+
+			
 		});
+		
+				
 		
 		/*=======================
 		  Search JS JS

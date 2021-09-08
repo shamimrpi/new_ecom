@@ -7,7 +7,7 @@
 
     @yield('main_body')
 	
-	@include('partials.website_slider')
+	
     @include('partials.website_footer')
     @include('partials.website_script')
 </body>
