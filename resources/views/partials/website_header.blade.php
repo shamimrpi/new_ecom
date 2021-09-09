@@ -2,7 +2,7 @@
 <header class="header shop">
 		<!-- Topbar -->
 		<div class="topbar">
-			<div class="container">
+			<div class="container-fluid">
 				<div class="row">
 					<div class="col-lg-6 col-md-6 col-12">
 						<!-- Top Left -->
@@ -54,7 +54,7 @@
 						<!--/ End Search Form -->
 						<div class="mobile-nav"></div>
 					</div>
-					<div class="col-lg-8 col-md-7 col-12">
+					<div class="col-lg-7 col-md-7 col-12">
 						<div class="search-bar-top">
 							<div class="search-bar">
 								<select>
@@ -65,12 +65,12 @@
 								</select>
 								<form>
 									<input name="search" placeholder="Search Products Here....." type="search">
-									<button class="btnn"><i class="ti-search"></i></button>
+									<button class="btnn"><i class="fa fa-search"></i></button>
 								</form>
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-2 col-md-3 col-12">
+					<div class="col-lg-3 col-md-3 col-12">
 						<div class="right-bar">
 							<!-- Search Form -->
 							<div class="sinlge-bar">
@@ -118,17 +118,17 @@
 		</div>
 		<!-- Header Inner -->
 		<div class="header-inner">
-			<div class="container-fluid">
+			<div class="container-fluid category-hide">
 				<div class="cat-nav-head">
 					<div class="row">
-						<div class="col-lg-3">
-							<div class="all-category">
+						<div class="col-lg-3 category-top" id="category_top">
+							<div class="all-category " id="all-category">
 								<h3 class="cat-heading"><i class="fa fa-bars" aria-hidden="true"></i>CATEGORIES</h3>
 								<ul class="main-category sidemenu">
-									<li><a href="#">New Arrivals <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+									<li><a href="#">New Arrivals</i></a>
 									
 									</li>
-									<li class="main-mega"><a href="#">best selling <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+									<li class="main-mega"><a href="#">best selling</a>
 										
 									</li>
 									<li><a href="#">accessories</a></li>
@@ -142,7 +142,7 @@
 								</ul>
 							</div>
 						</div>
-						<div class="col-lg-9 col-12">
+						<div class="col-lg-9 menubar">
 							<div class="menu-area">
 								<!-- Main Menu -->
 								<nav class="navbar navbar-expand-lg">

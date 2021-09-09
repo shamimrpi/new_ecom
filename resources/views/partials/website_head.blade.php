@@ -19,24 +19,19 @@
 	
 	<!-- Magnific Popup -->
     <link rel="stylesheet" href="">
-    <link rel="stylesheet" href="{{asset('website/css/magnific-popup.min.css')}}">
+
+    
+
 	<!-- Font Awesome -->
     <link rel="stylesheet" href="{{asset('website/css/font-awesome.css')}}">
-	<!-- Fancybox -->
-	<link rel="stylesheet" href="{{asset('website/css/jquery.fancybox.min.css')}}">
-	<!-- Themify Icons -->
-    <link rel="stylesheet" href="{{asset('website/css/themify-icons.css')}}">
-	<!-- Nice Select CSS -->
-    <link rel="stylesheet" href="{{asset('website/css/niceselect.css')}}">
+
+
 	<!-- Animate CSS -->
     <link rel="stylesheet" href="{{asset('website/css/animate.css')}}">
-	<!-- Flex Slider CSS -->
-    <link rel="stylesheet" href="{{asset('website/css/flex-slider.min.css')}}">
-	<!-- Owl Carousel -->
-    <link rel="stylesheet" href="{{asset('website/css/owl-carousel.css')}}">
-	<!-- Slicknav -->
-    <link rel="stylesheet" href="{{asset('website/css/slicknav.min.css')}}">
 	
+	<!-- Owl Carousel -->
+  <link rel="stylesheet" href="{{asset('website/owlcarousel/owl.carousel.min.css')}}">
+  <link rel="stylesheet" href="{{asset('website/owlcarousel/owl.theme.default.css')}}">
 	<!-- Eshop StyleSheet -->
 	<link rel="stylesheet" href="{{asset('website/css/reset.css')}}">
 	<link rel="stylesheet" href="{{asset('website/css/style.css')}}">

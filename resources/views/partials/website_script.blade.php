@@ -13,21 +13,17 @@
 	<!-- Slicknav JS -->
 	<script src="{{asset('website')}}/js/slicknav.min.js"></script>
 	<!-- Owl Carousel JS -->
-	<script src="{{asset('website')}}/js/owl-carousel.js"></script>
+	<script src="{{asset('website')}}/owlcarousel/owl.carousel.min.js"></script>
+{{-- 	<script src="{{asset('website')}}/js/owl-carousel.js"></script> --}}
 	<!-- Magnific Popup JS -->
 	<script src="{{asset('website')}}/js/magnific-popup.js"></script>
-	<!-- Waypoints JS -->
-	<script src="{{asset('website')}}/js/waypoints.min.js"></script>
-	<!-- Countdown JS -->
-	<script src="{{asset('website')}}/js/finalcountdown.min.js"></script>
+
 	<!-- Nice Select JS -->
 	<script src="{{asset('website')}}/js/nicesellect.js"></script>
-	<!-- Flex Slider JS -->
-	<script src="{{asset('website')}}/js/flex-slider.js"></script>
+
 	<!-- ScrollUp JS -->
 	<script src="{{asset('website')}}/js/scrollup.js"></script>
-	<!-- Onepage Nav JS -->
-	<script src="{{asset('website')}}/js/onepage-nav.min.js"></script>
+
 	<!-- Easing JS -->
 	<script src="{{asset('website')}}/js/easing.js"></script>
 	<!-- Active JS -->
@@ -37,10 +33,12 @@
 	    animateOut: 'slideOutDown',
 	    animateIn: 'flipInX',
 	    items:1,
-	   	dots:true,
 	    stagePadding:30,
 	    smartSpeed:450,
-	    dots: false,
+	    loop:true,
+		nav:true,
+		merge:true,
+	
 
 	});
 	</script>
@@ -101,16 +99,23 @@
 
 	</script>
 	<script type="text/javascript">
-		$('.all-category').on('click',function(){
-		
-			$( '.main-category' ).toggle();
-			  $( '.main-category' ).css({
-			    visibility:'visible',
-			    cursor: "auto",
-			    opacity:1,
-			   transtion:'1s'
-			  });
+		$('my-category').on('click',function(){
+			
+				$( '.main-category' ).toggle();
+				  $( '.main-category' ).css({
+				    visibility:'visible',
+				    cursor: "auto",
+				    opacity:1,
+				   transtion:'1s'
+				  });
+
+			
+			
 
 
 		});
+	</script>
+
+
+		
 	</script>

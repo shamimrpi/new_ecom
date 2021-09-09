@@ -51,8 +51,23 @@ Version:1.0
 		jQuery(window).on('scroll', function() {
 			if ($(this).scrollTop() >  600) {
 				$('.header').addClass("sticky");
+				$('.category-hide').addClass('container');
+				$('.category-hide').removeClass('container-fluid');
+				$('#category_top').removeClass('col-lg-3');
+				$('.all-category').hide();
+				
+
+
+				
 			} else {
 				$('.header').removeClass("sticky");
+				$('.category-hide').removeClass('container');
+				$('.category-hide').addClass('container-fluid');
+				$('#category_top').addClass('col-lg-3');
+				$('.all-category').show();
+
+				
+				
 			}
 
 			
